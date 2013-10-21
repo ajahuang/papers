@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Output: test_files\two-safe-groups\two_safe_groups_1_0.3.tst</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+<meta name="generator" content="gogui-regress 1.4.2 (http://gogui.sf.net)">
+<style type="text/css">
+<!--
+body { margin:0; }
+span.comment { color:#999999; }
+span.fail { font-weight:bold; color:#ff5454; }
+span.error { font-weight:bold; color:#ffa954; }
+span.stderr { color:#666666; }
+span.invalid { background:#ff5454;}
+span.pass { font-weight:bold; color:#5eaf5e; }
+span.test { font-weight:bold; }
+-->
+</style>
+</head>
+<body bgcolor="white" text="black" link="#0000ee" vlink="#551a8b">
+<table border="0" width="100%" bgcolor="#91aee8" border="0">
+<tr><td>
+<h1>Output: test_files\two-safe-groups\two_safe_groups_1_0.3.tst</h1>
+</td></tr>
+</table>
+<table width="100%" bgcolor="#e0e0e0">
+<tr><th align="left">Date:</th><td>January 2, 2013 6:49:32 PM PST</td></tr>
+<tr><th align="left">Host:</th><td>David-PC</td></tr>
+<tr><th align="left" valign="top">Command:</th>
+<td valign="top"><tt>/go/gtpmfgo/x64/release/gtpmfgo -l6 -chinese -threads 1 -loggtp -logengine -playouts 32000</tt></td></tr>
+</table>
+<pre style="margin:1em">
+name
+= Many Faces of Go
+
+version
+= 12 (2002, 2008, 2010 world champion), playing at level 1 dan.  Uses Many Faces' knowledge combined with Monte Carlo evaluation.  Free evaluation download at www.smart-games.com.  iPhone/iPod Igowin app has this full engine.
+
+cputime
+? unknown command
+
+</pre>
+<hr style="margin:1em" size="1">
+<pre style="margin:1em">
+<span class="comment">#-----------------------------------------------------------------------------
+# Position evaluation tests involving two safe white groups on the 9x9 board.
+# All these positions are lost for Black so the uct_value should be low.
+#-----------------------------------------------------------------------------
+</span>
+<span class="comment">#-----------------------------------------------------------------------------
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case1-1.sgf">sgf/two-safe-groups/case1-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= H9
+
+<span class="test"><a name="10">10 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=10 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case2-1.sgf">sgf/two-safe-groups/case2-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= D6
+
+<span class="test"><a name="20">20 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+</span><span class="fail">=20 0
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case3-1.sgf">sgf/two-safe-groups/case3-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= J6
+
+<span class="test"><a name="30">30 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=30 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case4-1.sgf">sgf/two-safe-groups/case4-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= F9
+
+<span class="test"><a name="40">40 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=40 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case5-1.sgf">sgf/two-safe-groups/case5-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= J5
+
+<span class="test"><a name="50">50 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=50 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case6-1.sgf">sgf/two-safe-groups/case6-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= F1
+
+<span class="test"><a name="60">60 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=60 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case7-1.sgf">sgf/two-safe-groups/case7-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= J8
+
+<span class="test"><a name="70">70 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=70 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case8-1.sgf">sgf/two-safe-groups/case8-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= F9
+
+<span class="test"><a name="80">80 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=80 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case9-1.sgf">sgf/two-safe-groups/case9-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= D9
+
+<span class="test"><a name="90">90 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=90 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case10-1.sgf">sgf/two-safe-groups/case10-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= J5
+
+<span class="test"><a name="100">100 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=100 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case11-1.sgf">sgf/two-safe-groups/case11-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= F9
+
+<span class="test"><a name="110">110 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=110 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case12-1.sgf">sgf/two-safe-groups/case12-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= E9
+
+<span class="test"><a name="120">120 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=120 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case13-1.sgf">sgf/two-safe-groups/case13-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= E9
+
+<span class="test"><a name="130">130 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=130 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case14-1.sgf">sgf/two-safe-groups/case14-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= C8
+
+<span class="test"><a name="140">140 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=140 -1
+
+</span>
+<span class="command">loadsgf <a href="../../test_files/two-safe-groups/sgf/two-safe-groups/case15-1.sgf">sgf/two-safe-groups/case15-1.sgf</a>
+</span>=
+
+<span class="command">reg_genmove b
+</span>= D9
+
+<span class="test"><a name="150">150 sg_compare_float 0.3 uct_value
+</a>#? [-1]
+=150 -1
+
+</span></pre>
+<hr style="margin:1em" size="1">
+<pre style="margin:1em">
+</span>cputime
+? unknown command
+
+quit
+=
+
+</pre>
+<hr style="margin-bottom:0" size="1">
+<p style="margin-top:1; margin-right:5" align="right"><i><small>Generated on 1/2/13 6:49 PM by gogui-regress 1.4.2 (<a href="http://gogui.sf.net">http://gogui.sf.net</a>)</small></i></p>
+</body>
+</html>

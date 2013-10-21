@@ -1,0 +1,6 @@
+Command for running pachi:
+
+./run.sh -p "java -jar /cshome/go/gogui-20120430/lib/gogui-adapter.jar -verbose -lowercase -fillpasses \"/cshome/go/go_programs/pachi/pachi/pachi -t =128000 resign_threshold=0 \"" -t g_seki_moves.tst -l
+
+mogo:
+./run.sh -p "java -jar /cshome/go/gogui-1.4.3/lib/gogui-adapter.jar -lowercase -fillpasses -verbose \"/cshome/go/go_programs/mogo/mogor --9 --nbTotalSimulations 1000\"" -t g_seki_moves.tst -l

@@ -1,0 +1,42 @@
+22 unexpected FAIL: Correct 'J4', got 'C2'
+42 unexpected FAIL: Correct 'J1', got 'A5'
+91 unexpected FAIL: Correct 'G8', got 'A1'
+111 unexpected FAIL: Correct 'B3', got 'J7'
+
+*** TEST FAILS OCCURRED ***
+1000
+84 unexpected FAIL: Correct 'D6', got 'G1'
+91 unexpected FAIL: Correct 'G8', got 'A1'
+
+*** TEST FAILS OCCURRED ***
+2000
+42 unexpected FAIL: Correct 'J1', got 'J5'
+91 unexpected FAIL: Correct 'G8', got 'A1'
+191 unexpected FAIL: Correct 'G1|G2|G3', got 'B1'
+
+*** TEST FAILS OCCURRED ***
+4000
+91 unexpected FAIL: Correct 'G8', got 'A1'
+191 unexpected FAIL: Correct 'G1|G2|G3', got 'E2'
+
+*** TEST FAILS OCCURRED ***
+8000
+172 unexpected FAIL: Correct 'H1|J2|pass|PASS', got 'D8'
+191 unexpected FAIL: Correct 'G1|G2|G3', got 'C2'
+
+*** TEST FAILS OCCURRED ***
+16000
+172 unexpected FAIL: Correct 'H1|J2|pass|PASS', got 'E8'
+191 unexpected FAIL: Correct 'G1|G2|G3', got 'D2'
+
+*** TEST FAILS OCCURRED ***
+32000
+172 unexpected FAIL: Correct 'H1|J2|pass|PASS', got 'D8'
+
+*** TEST FAILS OCCURRED ***
+64000
+172 unexpected FAIL: Correct 'H1|J2|pass|PASS', got 'D8'
+191 unexpected FAIL: Correct 'G1|G2|G3', got 'B2'
+
+*** TEST FAILS OCCURRED ***
+128000
